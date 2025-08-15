@@ -1,5 +1,6 @@
 import { Stack } from "expo-router";
 
 export default function RootLayout() {
-  return <Stack />;
+  // Minimal, safe default: a single Stack with headers hidden.
+  return <Stack screenOptions={{ headerShown: false }} />;
 }
